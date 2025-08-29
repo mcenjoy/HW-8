@@ -1,0 +1,26 @@
+{
+  "name": "hw-8",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix frontend\" \"npm run start --prefix backend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcenjoy/HW-8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mcenjoy/HW-8/issues"
+  },
+  "homepage": "https://github.com/mcenjoy/HW-8#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
